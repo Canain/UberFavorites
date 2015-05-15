@@ -1,0 +1,24 @@
+body > div {
+    width: 300px;
+    margin: 50px auto;
+}
+
+#uf-favorites > select {
+    margin-bottom: 5px;
+}
+
+#uf-favorites > button {
+    margin-top: 10px;
+}
+
+#uf-add > * {
+    margin-bottom: 5px;
+}
+
+#uf-form > * {
+    margin-bottom: 5px;
+}
+
+body > *:not(.uf-selected) {
+    display: none;
+}

@@ -1,0 +1,34 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<div id="uf-form" class="uf-selected">
+<input id="uf-email" class="form-control" type="text" placeholder="Email">
+<input id="uf-pass" class="form-control" type="password" placeholder="Password">
+<button id="uf-submit" class="form-control" type="button">Login or Register</button>
+</div>
+<div id="uf-favorites">
+    <label for="uf-favorites-select-from">From: </label><select id="uf-favorites-select-from" class="form-control uf-favorites-select"></select>
+    <label for="uf-favorites-select-to">To: </label><select id="uf-favorites-select-to" class="form-control uf-favorites-select"></select>
+    <button type="button" id="uf-favorites-request" class="form-control">Request Estimate</button>
+    <button type="button" id="uf-favorites-add" class="form-control">Add Location</button>
+</div>
+<div id="uf-add">
+    <label id="uf-add-current-name-label" for="uf-add-current-name"></label>
+    <input type="text" id="uf-add-current-name" class="form-control" placeholder="Current Location Name">
+    <button type="button" id="uf-add-current" class="form-control">Add Current Location</button>
+    <label id="uf-add-custom-label" for="uf-add-custom-latitude">Add Custom Location</label>
+    <input type="text" id="uf-add-custom-latitude" class="form-control" placeholder="Latitude">
+    <input type="text" id="uf-add-custom-longitude" class="form-control" placeholder="Longitude">
+    <input type="text" id="uf-add-custom-name" class="form-control" placeholder="Custom Location Name">
+    <button type="button" id="uf-add-custom" class="form-control">Add Custom Location</button>
+    <button type="button" id="uf-add-back" class="form-control">Back</button>
+</div>
+</body>
+</html>
